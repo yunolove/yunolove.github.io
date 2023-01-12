@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+   
+   <nav class="flex-container">
+       <div class="flex-item">Logo</div>
+       <div style="flex-grow: 1"></div>
+       <div class="flex-item">Products</div>
+       <div class="flex-item">services</div>
+   </nav>
+   
+   <input type="file" class="input-file">
+   
+   <!-- 숙제지 -->
+   <progress max="100" value="80"></progress>
+   
+    <style>
+        progress {
+            -webkit-appearance: none;
+        }
+     ::-webkit-progress-bar {
+      background-color: grey;
+    }
+
+    ::-webkit-progress-value {
+      background-color: orange;
+    }
+    </style>
+   
+   <div class="products-container">
+       <div class="products-item">
+           <i class="fas fa-shopping-cart fa-3x"></i>
+           <h4>Fast Shipping</h4>
+           <p>lorem ipsum</p>
+       </div>
+       <div class="products-item">
+           <i class="fas fa-globe-asia fa-3x"></i>
+           <h4>Good Service</h4>
+           <p>lorem ipsum</p>
+       </div>
+       <div class="products-item">
+           <i class="fas fa-user-alt fa-3x"></i>
+           <h4>Free Coupons</h4>
+           <p>lorem ipsum</p>
+       </div>
+       <div class="products-item">
+           <i class="fas fa-tshirt fa-3x"></i>
+           <h4>New Products</h4>
+           <p>lorem ipsum</p>
+       </div>
+   </div>
+   
+    <div class="main-background">
+        <h4 class="main-title">Buy Our Shoes! Now On Sale</h4>
+        <p class="main-content">When you need a classic style with modern comfort technology, look no further than the New Balance® Fresh Foam , made with the Fresh Foam innovative </p>
+        <button class="main-button">구매하기</button>
+    </div>
+    <div class="main-cont">
+        <h4 class="main-h4">How we design our shoes</h4>
+        <p class="main-txt pseudo">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius, doloremque accusantium, saepe inventore illo necessitatibus cum eligendi ad sint molestias
+        </p>
+    </div>
+    
+    <br>
+    
+    <div class="main-cont" style="padding: 50px">
+        <h4 class="main-h4">How we design our shoes</h4>
+        <p class="main-txt">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius, doloremque accusantium, saepe inventore illo necessitatibus cum eligendi ad sint molestias
+        </p>
+    </div>
+    <!-- width는 content 영역의 너비를 의미함 -->
+    
+    <div class="shoe-bg">
+        <div class="shop-conatainer">
+            <div class="shop-item">
+                <div class="shop-ani">
+                    <div class="overlay"></div>
+                    <img src="img/products1.jpg" alt="">
+                </div>
+            </div>
+            <div class="shop-item">
+                <div class="shop-ani">
+                    <div class="overflow-wrap">
+                        <div class="overflow">
+                            <span>$60</span>
+                        </div>
+                    </div>
+                    <img src="img/products2.jpg" alt="">
+                </div>
+            </div>
+            <div class="shop-item">
+                <img src="img/products3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="form-wrap">
+        <div class="form-container">
+           <form action="">
+                <div class="w-100">
+                    <h3 class="form-tit">contact us</h3>                
+                    <p class="form-title">Your Email</p>
+                    <p class="form-content">
+                        <input class="form-input" type="email" placeholder="email@example.com">
+                    </p>
+                </div>
+                <div class="w-50">
+                    <p>First name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-50">
+                    <p>First name</p>
+                    <input class="form-input" type="text">
+                </div>
+
+                <div class="w-100">
+                    <p>Message</p>
+                    <textarea class="form-input" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="w-100">
+                    <input id="sub" type="checkbox">
+                    <label for="sub">Subscribe</label>
+                    <button>SEND</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    
+    <!-- <form action="">
+        <input type="text" class="text-input">
+        <input type="text">
+        <input type="email">
+        <select name="" id="">
+            <option value="">asdf</option>
+            <option value="">asdf</option>
+            <option value="">asf</option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10"></textarea> 
+        <input type="submit">
+        <button type="submit">전송</button>       
+    </form> -->
+</body>
+</html>

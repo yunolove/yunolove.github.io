@@ -1,0 +1,135 @@
+div, input, textarea {
+    box-sizing: border-box; /* 이러면 width가 padding, border을 포함함 */
+}
+
+body {
+    margin: 0px;
+    font-family: NanumGothic;
+    font-weight: 100; /* font-weight 그냥 주면 안이쁨 굵은 폰트를 따로 등록해야 함 */
+}
+
+
+.wrap {
+    background: #f7f9fc;
+    padding: 30px;
+}
+
+.white_box {
+    background:#fff;
+    border-radius:5px;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee;
+    margin-bottom: 20px;
+}
+
+.profile h3,
+.profile p {
+    margin-bottom: 1px;
+}
+.sky_blue {
+    color: #6fbaf8;
+    letter-spacing: -1px;
+}
+
+.pro_box {
+    width: 80%;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.info_box {
+    border-left:2px solid #eee;
+}
+
+.profile {
+    padding-top: 10px;
+}
+
+.profile .btn {
+    background-color: #6fbaf8;
+    border-color: #6fbaf8;
+}
+
+.profile_tit {    
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+    color: #6fbaf8;
+    position: relative;
+    border-bottom: 2px solid #eee;
+    font-weight: 500;
+}
+
+.profile_tit::after {
+    content: "";
+    border-bottom: 2px solid #6fbaf8;
+    width: 20%;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -2px;
+}
+.txt {
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+.work span {
+    display: block;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.pill {
+	display: inline-block;
+	border: 1px solid lightgray;
+	border-radius: 100px;
+	padding: 3px 12px 5px 12px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
+
+.right_wrap {
+    text-align: center;
+}
+.right_wrap p {
+    margin:10px 0;
+}
+.right_wrap .btn {
+    margin-top:10px;
+}
+
+.people_tit {
+    font-weight: 700;
+    margin: 0px;
+}
+
+.people_txt {
+    color: #777;
+}
+
+.peo_wrap {
+    font-size: 0.8em;
+    letter-spacing: -1px;
+}
+
+.peo_wrap .ms-3 {
+    margin-left: 0px !important;
+}
+
+.peo_txt_wrap p {
+    margin: 0px;
+}
+
+.right_tit {
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width:768px) {
+    .info_box { border:none; }
+}
